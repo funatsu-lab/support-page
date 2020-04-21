@@ -101,6 +101,35 @@ support-page
         `-- 9.3-screening.py
 ```
 
+## コンテンツ
+
+1. CoLabでの演習
+    - 1.2 Bostonデータ可視化 [gist](https://nbviewer.jupyter.org/gist/sshojiro/d614503df0db630ac8194e381a7e5588)
+    - 1.3 tSNEでのタニモト距離基準の可視化 [gist](https://nbviewer.jupyter.org/gist/sshojiro/01579415335916620109f5c45e69826e)
+    - 1.4 フラグメント可視化 [gist](https://nbviewer.jupyter.org/gist/sshojiro/946737ed021eae99b08e6b2cd0b4cc12/1-4-fragment-visualization.ipynb)
+2. （環境構築，テキスト参照のこと）
+3. （マテリアルズインフォマティクス概論，テキスト参照のこと）
+4. 実験計画法
+    - 4.2 直交計画法 [gist](https://nbviewer.jupyter.org/gist/sshojiro/975bd4c31e32fde35ddae14987510fa5/4-2-doe_orthogonal.ipynb)
+    - 4.4 D最適化計画 [gist](https://nbviewer.jupyter.org/gist/sshojiro/1806ea69ce0b190a38a516bc050d36a9)
+5. 記述子計算（スクリプト実行）
+    - 5.2 フラグメントカウントの実装
+    - 5.3 RDKit組み込みのフラグメントカウント
+    - 5.4 RDKit記述子
+    - 5.5 Mordred
+    - 5.6 Pymatgen （`notebooks/9.2-catalyst-exhaustive.ipynb`に記載）
+6. （機械学習，テキスト参照のこと）
+7. （機械学習モデルの解釈，テキスト参照のこと）
+8. 追加検討
+    - 8.1.1 自作構造生成
+    - 8.1.2 ReCAP，BRICSによる構造生成
+    - 8.2 ベイズ最適化（図が白黒対応していない）
+9. 解析例
+    - 9.2 触媒データを使った解析
+    - 9.3 水溶解度データを使った構造生成、スクリーニング
+    - 9.4 ChEMBLデータを用いた分類。カーネル法と分類問題
+10. （Bashによるデータ加工，テキスト参照のこと）
+
 ## 誤字脱字等の報告
 
 本書あるいは本リポジトリに誤りが見つかった場合は<br>
