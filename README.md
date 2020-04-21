@@ -117,7 +117,9 @@ support-page
     - 5.3 RDKit組み込みのフラグメントカウント
     - 5.4 RDKit記述子
     - 5.5 Mordred
-    - 5.6 Pymatgen （`notebooks/9.2-catalyst-exhaustive.ipynb`に記載）
+    - 5.6 Pymatgen
+      - 5.6.1 [元素物性 gist](https://nbviewer.jupyter.org/gist/sshojiro/decde333f82748c7df668374b571e75c)
+      - 5.6.2 [組成比 gist](https://nbviewer.jupyter.org/gist/sshojiro/2868de251878d3f52a2e6521b430a968)
 6. （機械学習，テキスト参照のこと）
 7. （機械学習モデルの解釈，テキスト参照のこと）
 8. 追加検討
