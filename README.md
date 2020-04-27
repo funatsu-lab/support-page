@@ -103,6 +103,7 @@ support-page
 
 ## コンテンツ
 
+0. Pythonの基礎（テキスト本編にはありません） [gist](https://nbviewer.jupyter.org/gist/sshojiro/e437645bb071bcb6c072f9cc6dbb11fa)
 1. CoLabでの演習
     - 1.2 Bostonデータ可視化 [gist](https://nbviewer.jupyter.org/gist/sshojiro/d614503df0db630ac8194e381a7e5588)
     - 1.3 tSNEでのタニモト距離基準の可視化 [gist](https://nbviewer.jupyter.org/gist/sshojiro/01579415335916620109f5c45e69826e)
