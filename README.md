@@ -133,6 +133,24 @@ support-page
     - 9.4 ChEMBLデータを用いた分類。カーネル法と分類問題
 10. （Bashによるデータ加工，テキスト参照のこと）
 
+## Dockerによる起動
+
+本項はDockerの操作を分かっている方がご利用ください。
+
+**ローカルでイメージをビルドする場合**
+
+```bash
+$ docker build -t example/matcheminfo . # Dockerfileからビルド
+$ docker run -i -v /$(pwd):/workspace -p 9999:8888 -t example/matcheminfo # 現在のフォルダとDockerコンテナ内を-vオプションで紐付ける（マウントする）
+```
+
+**イメージを取得する場合**
+
+```bash 
+$ docker pull sshojiro/alpine:latest
+$ docker run -i -v /$(pwd):/workspace -p 9999:8888 -t sshojiro/alpine:latest # 現在のフォルダとDockerコンテナ内を-vオプションで紐付ける（マウントする）
+```
+
 ## 誤字脱字等の報告
 
 本書あるいは本リポジトリに誤りが見つかった場合は<br>
