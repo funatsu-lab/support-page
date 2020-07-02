@@ -1,6 +1,6 @@
 # サポートページ
 
-技術書のサポートページです。
+[『実践 マテリアルズインフォマティクス』](https://amzn.to/3dSszJL)のサポートページです。
 
 ## プロジェクトの始め方
 
@@ -30,7 +30,7 @@ $ conda install -c rdkit rdkit
 $ pip install jupyter
 ```
 
-#### Anacondaを使ってインストールする場合
+#### `environment.yml`ファイルを使ってインストールする場合
 
 Anaconda (Miniconda)の`conda env create`コマンドを使って<br>
 （Pythonの）仮想環境を構築します。本フォルダには既に<br>
