@@ -42,11 +42,11 @@ if __name__=="__main__":
     plt.xlabel('第1主成分 {:.2f}%'.format(ratio_[0]*100))
     plt.ylabel('第2主成分 {:.2f}%'.format(ratio_[1]*100))
     plt.axis('square')
-    plt.savefig('../results/rdkit_pca_freqs.jpg')
+    plt.savefig('./results/rdkit_pca_freqs.jpg')
 
     from numpy import cumsum, arange
     plt.figure()
     plt.plot(arange(1,1+len(ratio_)), 100*cumsum( ratio_ ),'o-')
     plt.xlabel('成分数')
     plt.ylabel('累積寄与率 [%]')
-    plt.savefig('../results/rdkit_pca_cumsum_contribs.jpg')
+    plt.savefig('./results/rdkit_pca_cumsum_contribs.jpg')
